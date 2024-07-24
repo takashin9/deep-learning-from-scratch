@@ -3,8 +3,7 @@ sys.path.append(os.pardir)
 import pickle
 import numpy as np
 from dataset.mnist import load_mnist
-from sigmoid import sigmoid
-from softmax import softmax
+from common.functions import sigmoid, softmax
 
 def get_data():
     (x_train, t_train), (x_test, t_test) = \
